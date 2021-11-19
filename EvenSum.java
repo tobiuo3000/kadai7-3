@@ -13,7 +13,7 @@ class EvenSum {
   public static void main(String[] args) {
     int i = Integer.parseInt(args[0]);
     Stream<Integer> s = IntStream.range(1, i+1).boxed();
-
+    System.out.println("git hub, can you see it?");
     System.out.println(evenSum(s)); //sはiterator
   }
 }
